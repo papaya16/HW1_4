@@ -1,0 +1,148 @@
+body{
+  width: 960px;
+  margin: 0 auto;
+}
+.logo {
+  float: left;
+  margin-top: 0.6em;
+}
+.menu {
+  display: inline-block;
+  text-align: center;
+}
+.menu li {
+  float: left;
+  list-style: none;
+  margin: 0 auto;
+  margin-top: 2em;
+}
+.menu li a {
+  margin-left: 3em;
+  font-size: 15px;
+  font-weight: 600;
+  color: #000000;
+  text-decoration: none;
+}
+.menu li a:hover {
+  color: #F08080;
+}
+.login-image,
+.login {
+  float: right;
+  margin-top: 3em;
+  margin-left: -2em;
+}
+.login li {
+  float: right;
+  list-style: none;
+  margin-left: 5px;
+  font-size: 15px;
+  color: #A9A9A9;
+}
+.login li a {
+  text-decoration: none;
+  font-size: 15px;
+  color: #A9A9A9;
+}
+.login li a:hover {
+  color: #F08080;
+}
+.mid {
+  height: 600px;
+  top: 3em;
+  position: relative;
+  background: url(http://i.imgur.com/qHFBqbU.png) no-repeat center bottom;
+}
+section .phone {
+  position: absolute;
+  top: 0;
+  left: 150px;
+}
+section .content {
+  line-height:1.7em;
+  font-weight: 600;
+  position: absolute;
+  top: 3em;
+  left: 550px;
+}
+button {
+  border: 0;
+  padding: 5px 30px;
+  border-radius: 100px;
+  color: #fff;
+  background: #fe8511;
+  /* Old browsers */
+  background: -moz-linear-gradient(top, #fe8511 0%, #dc5608 100%);
+  /* FF3.6+ */
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #fe8511), color-stop(100%, #dc5608));
+  /* Chrome,Safari4+ */
+  background: -webkit-linear-gradient(top, #fe8511 0%, #dc5608 100%);
+  /* Chrome10+,Safari5.1+ */
+  background: -o-linear-gradient(top, #fe8511 0%, #dc5608 100%);
+  /* Opera 11.10+ */
+  background: -ms-linear-gradient(top, #fe8511 0%, #dc5608 100%);
+  /* IE10+ */
+  background: linear-gradient(to bottom, #fe8511 0%, #dc5608 100%);
+  /* W3C */
+  filter: progid: DXImageTransform.Microsoft.gradient(startColorstr='#fe8511', endColorstr='#dc5608', GradientType=0);
+  /* IE6-9 */
+}
+
+.foo{
+  padding-left: 70px;
+  text-align: center;
+  width: 960px;
+  margin: 0 auto;
+  top:3em;
+  position: relative;
+  
+}
+.foo p{
+  display:inline-block;
+  color:#696969;
+}
+.left,.right, h3{
+  float:left;
+  margin: 0 auto;
+}
+h3{
+  border:3px #ccc double;
+  padding:40px 15px;
+  font-size:40px;
+  margin:0;
+}
+.left,.right{
+  border:1px #ccc solid;
+  height:290px;
+  padding:10px;
+  margin:0 20px;
+  color:#696969;
+}
+.left{
+  width:160px;
+}
+#p1, #p2{
+  width:180px;
+  border-bottom:1px #ccc solid;
+  padding:10px 0;
+  margin:0 -10px;
+}
+span{
+  color:#000000;
+  font-size:15px;
+}
+#last{
+  font-size:14px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
